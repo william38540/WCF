@@ -8,12 +8,15 @@ using System.Security.Principal;
 using System.ServiceProcess.Design;
 using System.Threading;
 using System.Windows.Forms;
-using WindowsService.Properties;
+//using WindowsService.Properties;
 using Microsoft.Win32;
 using Progress;
 
 namespace WindowsService
 {
+    /// <summary>
+    /// 
+    /// </summary>
     internal class ServicesManagerHelper
     {
         // Use NTLM security provider to check 
@@ -434,7 +437,7 @@ namespace WindowsService
 
             //Give focus password edit 
             var childControl = svcDialog.Controls[0];
-            childControl.BackgroundImage = Resources.banner;
+            //childControl.BackgroundImage = Resources.banner;
             childControl.BackgroundImageLayout = ImageLayout.Center;
 
             // Recurse child controls. 
