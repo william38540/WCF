@@ -3,3 +3,7 @@
 ################################################################################
 
 /WindowsService/obj/Debug
+/.vs/Simple/v15/Server/sqlite3
+/CalculatorService/obj/Debug
+/Client/obj/Debug
+/Service/obj/Debug
